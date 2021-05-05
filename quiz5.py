@@ -9,7 +9,7 @@ class Person:
         print("나는 걷는 중")
 
 class Worker(Person):
-    def __init__(self,name,mental):
+    def __init__(self,name,company):
         Person.__init__(self,name)
         self.company=company
         self.mental=50
